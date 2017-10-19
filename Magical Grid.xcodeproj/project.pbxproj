@@ -97,12 +97,10 @@
 		A7E412B61EFD9B0B00921100 /* Magical Grid */ = {
 			isa = PBXGroup;
 			children = (
-				A7E412B71EFD9B0B00921100 /* AppDelegate.swift */,
-				A7E412B91EFD9B0B00921100 /* ViewController.swift */,
-				A7E412BB1EFD9B0C00921100 /* Main.storyboard */,
-				A7E412BE1EFD9B0C00921100 /* Assets.xcassets */,
-				A7E412C01EFD9B0C00921100 /* LaunchScreen.storyboard */,
-				A7E412C31EFD9B0C00921100 /* Info.plist */,
+				A7EFE0631F993D1F00C2DDB6 /* Controller */,
+				A7EFE0621F993D1500C2DDB6 /* View */,
+				A7EFE0611F993D0C00C2DDB6 /* Model */,
+				A7EFE0641F993D2E00C2DDB6 /* Support Files */,
 			);
 			path = "Magical Grid";
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				A7E412D91EFD9B0D00921100 /* Info.plist */,
 			);
 			path = "Magical GridUITests";
+			sourceTree = "<group>";
+		};
+		A7EFE0611F993D0C00C2DDB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7EFE0621F993D1500C2DDB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7E412BE1EFD9B0C00921100 /* Assets.xcassets */,
+				A7E412BB1EFD9B0C00921100 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7EFE0631F993D1F00C2DDB6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7E412B71EFD9B0B00921100 /* AppDelegate.swift */,
+				A7E412B91EFD9B0B00921100 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7EFE0641F993D2E00C2DDB6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7E412C31EFD9B0C00921100 /* Info.plist */,
+				A7E412C01EFD9B0C00921100 /* LaunchScreen.storyboard */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -507,6 +539,7 @@
 				A7E412DE1EFD9B0D00921100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7E412DF1EFD9B0D00921100 /* Build configuration list for PBXNativeTarget "Magical GridTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +548,7 @@
 				A7E412E11EFD9B0D00921100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7E412E21EFD9B0D00921100 /* Build configuration list for PBXNativeTarget "Magical GridUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +557,7 @@
 				A7E412E41EFD9B0D00921100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
